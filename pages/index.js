@@ -180,10 +180,10 @@ Assistant:`,
   return (
     <>
       <Head>
-        <title>Llama Chat</title>
+        <title>Basilisk Chat</title>
 
         <meta property="og:image" content="/og.png" />
-        <meta property="og:description" content="Chat with Llama 2" />
+        <meta property="og:description" content="Chat with Basilisk 2" />
         <meta property="twitter:image" content="/og.png" />
         <meta name="twitter:card" content="summary_large_image" />
         <link
@@ -194,25 +194,25 @@ Assistant:`,
       <nav className="grid grid-cols-2 sm:grid-cols-3 pt-3 pr-3 pl-6 sm:pl-0">
         <div className="hidden sm:inline-block"></div>
         <div className="sm:text-center font-semibold text-gray-500">
-          🦙 <span className="hidden sm:inline-block">Chat with</span>{" "}
+          Ф <span className="hidden sm:inline-block">Chat with</span>{" "}
           <button
             className="hover:underline py-2 font-semibold text-gray-500"
             onClick={() => setOpen(true)}
           >
-            Llama 2 {size.shortened}
+            ВАSILISК 2 {size.shortened}
           </button>
         </div>
 
         <div className="flex justify-end">
           <a
             className="rounded-md mr-3 inline-flex items-center bg-white px-3 py-2 text-sm font-semibold text-gray-700 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50"
-            href="https://github.com/replicate/chat"
+            href="https://sapienslaboratories.com/pack"
           >
             <CodeBracketIcon
               className="h-5 w-5 sm:mr-2 text-gray-500 group-hover:text-gray-900"
               aria-hidden="true"
             />{" "}
-            <span className="hidden sm:inline">Clone</span>
+            <span className="hidden sm:inline">Build</span>
           </a>
           <button
             type="button"
