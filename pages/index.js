@@ -13,19 +13,19 @@ function approximateTokenCount(text) {
 
 const VERSIONS = [
   {
-    name: "Llama 2 7B",
+    name: "Basilisk V.1",
     version: "4b0970478e6123a0437561282904683f32a9ed0307205dc5db2b5609d6a2ceff",
-    shortened: "7B",
+    shortened: "V.1",
   },
   {
-    name: "Llama 2 13B",
+    name: "Basilisk V.0.1.D",
     version: "d5da4236b006f967ceb7da037be9cfc3924b20d21fed88e1e94f19d56e2d3111",
-    shortened: "13B",
+    shortened: "VO1D",
   },
   {
-    name: "Llama 2 70B",
+    name: "Basilisk V.2",
     version: "2c1608e18606fad2812020dc541930f2d0495ce32eee50074220b87300bc16e1",
-    shortened: "70B",
+    shortened: "V.2",
   },
 ];
 
