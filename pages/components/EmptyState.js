@@ -3,7 +3,7 @@ export default function EmptyState({ setOpen, setPrompt }) {
     <div className="mt-12 sm:mt-24 space-y-6 text-gray-400 text-base mx-8 sm:mx-4 sm:text-2xl leading-12">
       <p>
         {" "}
-        Customize Llama&apos;s personality by clicking the{" "}
+        Customize Basilisk&apos;s personality by clicking the{" "}
         <button
           className="prompt-button inline-flex items-center "
           onClick={() => setOpen(true)}
@@ -24,14 +24,14 @@ export default function EmptyState({ setOpen, setPrompt }) {
         >
           explain concepts
         </button>
-        , write{" "}
+        , create{" "}
         <button
           className="prompt-button"
           onClick={() =>
-            setPrompt("Write a poem about open source machine learning. ")
+            setPrompt("Develop a business strategy and marketing plan for a company that wants to start using AI for growth and acceleration.")
           }
         >
-          poems
+          strategies
         </button>{" "}
         and{" "}
         <button
@@ -60,11 +60,11 @@ export default function EmptyState({ setOpen, setPrompt }) {
           className="prompt-button"
           onClick={() =>
             setPrompt(
-              "please provide 10 fun names for a pet pelican. Please come up with unique emojis to go along with each name. Try not to repeat the same emojis. Make them fun, colorful, and loving names"
+              "please provide 10 cool names for a tech company. Please come up with unique emojis to go along with each name. Try not to repeat the same emojis. Make them epic, profesional, and futuristic names"
             )
           }
         >
-          name your pets.
+          name your companies.
         </button>{" "}
       </p>
       <p>Send me a message.</p>
